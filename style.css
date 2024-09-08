@@ -1,8 +1,85 @@
-* {
-    background-color: #FEE9C7;
-    color: #0E0502;
-    margin: 10;
+html, body {
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    box-sizing: border-box;
 }
+
+body {
+    background-color: #D2B48C;
+    font-family: 'Georgia', serif; 
+    color: #3E2723;
+    padding: 20px;
+    line-height: 1.6; 
+}
+
+.topo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #5C200C;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1;
+}
+
 .menu {
     display: inline;
+    list-style: none;
+}
+
+.menu a {
+    color: #E0CCAB;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #FFD700; /* Cor dourada ao passar o mouse */
+}
+
+.citacao {
+    border: #0E0502 groove 1px;
+    background-color: #D3D3D3; /* Fundo neutro para destacar a citação */
+    text-align: center;
+    margin: 80px 15px 20px; /* Espaçamento da parte superior ajustado para evitar sobreposição com o topo */
+    padding: 20px;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+h2, h3 {
+    color: #5C200C; /* Cor de destaque para títulos */
+    margin-bottom: 10px;
+}
+
+ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 20px;
+    text-align: justify; /* Para alinhar o texto como em um blog */
+}
+
+h6 {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #5C200C;
+    text-align: right;
 }
