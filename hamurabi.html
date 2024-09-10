@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hamurabi.css">
     <title>Tabuletas Babilônicas</title>
 </head>
 <body>
-    <head>
-        <div></div>
+    <header>
+        <div id="top-header"><strong>TABULETAS HISTÓRICAS</strong></div>
         <nav>
-            <ul class="topo">
-                <li  class="menu"><a href="/index.html">Inicío</a></li>
-                <li  class="menu imperio"><a href="/nascimentoImperio.html">O nascimento de um Império</a></li>
+            <ul id="bottom-header">
+                <li  class="menu"><a href="/index.html">Início</a></li>
+                <li  class="menu"><a href="/nascimentoImperio.html">O nascimento de um Império</a></li>
                 <li  class="menu"><a href="/amoritas.html">Amoritas e influência do código na justiça atual</a></li>
                 <li  class="menu"><a href="/civilizacaoBabilonica.html">Civilização Babilônica</a></li>
             </ul>
         </nav>
-    </head>
+    </header>
+
     <main>
         <h1>O CÓDIGO DE HAMURABI</h1>
-
         <section class="citacao">
             <p>
                 “Para que o forte não prejudique o mais fraco, a fim de proteger as viúvas
@@ -29,6 +30,7 @@
              -Trecho encontrado antes das leis.
             </p>
         </section>
+
         <section>
             <p>
                 Por volta de 1800 a.C., os povos que habitavam a Mesopotâmia eram muito 
@@ -41,6 +43,7 @@
             modificá-las gerando discórdia entre a população.
             </p>
         </section>
+
         <ul class="links-secao">
             <li><strong>Nesta parte do blog você irá encontrar:</strong></li>
             <li><a href="#QueE">O QUE É</a></li>
@@ -48,13 +51,14 @@
             <li><a href="#leis">ALGUMAS LEIS</a></li>
             <li><a href="#Hamurabi">QUEM FOI HAMURABI</a></li>
         </ul>
-        <div class="imagens-container">
-            <img src="/imagens/ch1.jpg" class="imagem-centro1">
-            <img src="/imagens/codigos.jpg" class="imagem-centro2">
-        </div>
+
+        <figure>
+            <img src="/imagens/ch1.jpg" id="img-centro1">
+            <!--<figcaption>Pedra do Código de Hamurabi exposta no Museu do Louvre</figcaption> centralizar no css-->
+        </figure>
         
         <section>
-            <img src="/imagens/541.jpg" class="imagem-lado1">
+            <img src="/imagens/541.jpg" id="img-lado1">
             <h2 id="QueE">O que é?</h2>
             <p>
                 O Código de Hamurabi foi o primeiro conjunto jurídico já escrito na história, 
@@ -68,8 +72,8 @@
             variavam de acordo com a classe social do indivíduo e se ele era homem ou mulher.
             </p>
         </section>
+
         <section>
-            <img src="/imagens/estela.jpg" class="imagem-lado" alt="">
             <h2 id="ComoFunciona">Como funcionava?</h2>
             <p>
                 As leis do Código de Hamurabi apresentavam punições para o descumprimento 
@@ -83,8 +87,12 @@
             importantes da Mesopotâmia, inspirando diversas civilizações a criarem seus 
             próprios conjuntos de leis.
             </p>
-            <img src="/imagens/codigo-de-hamurabi-ia.jpg" class="imagem-baixo">
+            <figure>
+                <img src="/imagens/codigo-de-hamurabi-ia.jpg" id="img-baixo">
+                <!--<figcaption>Representação do Código de Hamurabi exposto para a população</figcaption> -->
+            </figure>
         </section>
+
         <section>
             <h2 id="leis">Algumas leis</h2>
             <p>
@@ -132,14 +140,20 @@
                 não há defeito de sua parte e o marido se ausenta e a descura muito, essa mulher
                 não está em culpa, ela deverá tomar o seu donativo e voltar à casa de seu pai.</li>
             </ul>
-            <img src="/imagens/Sem título.jpg" alt="">
-            <img src="/imagens/escrita-cuneiforme-do-codigo.webp" alt="">
-            <h6>Acesse o 
+            <figure>
+                <img src="/imagens/escrita-cuneiforme-do-codigo.webp">
+                <!--<figcaption>Pedra com escrita em cuneiforme do Código de Hamurabi </figcaption> organizar no css-->
+            </figure>
+            <h6>&gt Acesse o 
                 <a href="http://www4.policiamilitar.sp.gov.br/unidades/dpcdh/Normas_Direitos_Humanos/C%C3%93DIGO%20DE%20HAMURABI.pdf" target="_blank">Código de Hamurabi</a> 
                 completo em pdf</h6>
         </section>
+
         <section>
-            <img src="/imagens/hamurabi-min.jpg" class="imagem-baixo2">
+            <figure>
+                <img src="/imagens/hamurabi-min.jpg" id="img-baixo2">
+                <!--<figcaption>Representação de como seria Hamurabi</figcaption> organizar no css-->
+            </figure>
             <h2 id="Hamurabi">Quem foi Hamurabi?</h2>   
             <p>
                 Hamurabi nasceu por volta de 1810 a.C. e foi o sexto rei da primeira 
@@ -152,8 +166,6 @@
             Hamurabi. Não foi responsável apenas pela criação do famoso código de leis, mas 
             também por expandir a hegemonia da Babilônia sobre a Mesopotâmia.
             </p>
-            <img src="/imagens/h1.jpg" class="imagem-lado2"alt="">
-            <img src="/imagens/images-removebg-preview.png" class="imagem-lado2" alt="">
         </section>
     </main>
 </body>
