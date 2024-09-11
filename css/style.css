@@ -4,7 +4,7 @@
 }
 
 body{ 
-    background-color: #e6ca8b;
+    background-color: #D9C8A9;
     font-family: 'Georgia'; 
     color: #3E2723;
     line-height: 1.6;
@@ -22,21 +22,22 @@ header{
 
 #top-header{
     font-size: 30px;
-    color: #5C200C;
-    background-color: #cbad69;
-    padding: 15px;
-    padding-left: 35px;
+    color: #cbad69;
+    background-color: #5C200C;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
 }
 
 #bottom-header{
     margin-top: 0;
-    background-color: #52281c;
-    font-family: Impact;
+    background-color: #5C200C;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: large;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .menu{
@@ -54,13 +55,14 @@ header{
 }
 
 .menu a:hover{
-    color: #FFD700;
+    color: #cbad69;
 }
 
 h1{
     text-align: center;
-    margin-top: 17%;
+    margin-top: 12%;
     font-size: 50px;
+    color: #5C200C;
 }
 
 #articles{
@@ -81,10 +83,10 @@ h1{
 }
 
 .article a:hover{
-    color: #72651c;
+    color: #5c200cc9;
 }
 
-/*footer{
+/* footer{
     text-align: center;
     font-size: 15px;
     color: #FEFDF2;
