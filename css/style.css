@@ -1,12 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    scroll-padding: 80px;
 }
 
 body{ 
-    background-color: #D9C8A9;
+    background-color: #e6ca8b;
     font-family: 'Georgia'; 
     color: #3E2723;
     line-height: 1.6;
@@ -58,3 +56,38 @@ header{
 .menu a:hover{
     color: #FFD700;
 }
+
+h1{
+    text-align: center;
+    margin-top: 17%;
+    font-size: 50px;
+}
+
+#articles{
+    margin: 40px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.article{
+    margin-top: 17%;
+}
+
+.article a{
+    text-decoration: none;
+    color: #260B01;
+}
+
+.article a:hover{
+    color: #72651c;
+}
+
+/*footer{
+    text-align: center;
+    font-size: 15px;
+    color: #FEFDF2;
+    background-color: #52281c;
+    padding: 10px;
+} */
