@@ -86,10 +86,34 @@ h1{
     color: #5c200cc9;
 }
 
-/* footer{
-    text-align: center;
-    font-size: 15px;
+footer {
+    background-color: #5C200C;
     color: #FEFDF2;
-    background-color: #52281c;
-    padding: 10px;
-} */
+    padding: 20px;
+    text-align: center;
+    width: 100vw; /* Garante que o rodapé ocupe toda a largura da janela */
+    margin-left: calc(-50vw + 50%); /* Centraliza o rodapé */
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #cbad69;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #fefdf2;
+}
+
+.bottom-footer p {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #cbad69;
+}
