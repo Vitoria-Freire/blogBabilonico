@@ -23,34 +23,30 @@ header{
 #top-header{
     font-size: 30px;
     color: #cbad69;
-    background-color: #5C200C;
-    padding: 20px;
-    justify-content: center;
-    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #bottom-header{
-    margin-top: 0;
     background-color: #5C200C;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: large;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
 }
 
 .menu{
     display: inline-block;
-    margin-left: 20px; 
+    margin-left: 0 20px; 
+    padding: 20px 15px;
 }
 
 .menu a{
     color: #FEFDF2;
-    margin: 0 15px;
+    margin: 0 5px;
     text-align: center;
     text-decoration: none;
-    padding: 10px;
     transition: color 0.3s ease;
 }
 
@@ -58,23 +54,39 @@ header{
     color: #cbad69;
 }
 
+#narrator{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+#narrator img{
+    width: 12px;
+    padding-right: 25px;
+}
+
+#narrator p{
+    padding-top: 20px;
+    padding-left: 10px;
+    text-align: justify;
+    font-size: large;
+}
+
 h1{
     text-align: center;
-    margin-top: 12%;
+    margin-top: 8%;
     font-size: 50px;
     color: #5C200C;
 }
 
 #articles{
-    margin: 40px;
-    margin-top: 70px;
     display: flex;
     justify-content: center;
     gap: 50px;
 }
 
 .article{
-    margin-top: 17%;
+    margin-top: 5%;
 }
 
 .article a{
@@ -86,10 +98,34 @@ h1{
     color: #5c200cc9;
 }
 
-/* footer{
-    text-align: center;
-    font-size: 15px;
+footer{
+    background-color: #5C200C;
     color: #FEFDF2;
-    background-color: #52281c;
-    padding: 10px;
-} */
+    padding: 20px;
+    text-align: center;
+    width: 100vw; /* Garante que o rodapé ocupe toda a largura da janela */
+    margin-left: calc(-50vw + 50%); /* Centraliza o rodapé */
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #cbad69;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #fefdf2;
+}
+
+.bottom-footer{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #cbad69;
+}
