@@ -28,6 +28,7 @@ header{
 }
 
 #bottom-header{
+    margin-top: 0;
     background-color: #5C200C;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: large;
@@ -103,8 +104,8 @@ footer{
     color: #FEFDF2;
     padding: 20px;
     text-align: center;
-    width: 100vw; /* Garante que o rodapé ocupe toda a largura da janela */
-    margin-left: calc(-50vw + 50%); /* Centraliza o rodapé */
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
 }
 
 .footer-links {
