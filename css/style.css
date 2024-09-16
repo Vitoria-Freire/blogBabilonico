@@ -87,7 +87,7 @@ h1{
 }
 
 .article{
-    margin-top: 5%;
+    margin-top: 10px;
 }
 
 .article a{
@@ -129,4 +129,15 @@ footer{
     font-size: 12px;
     margin-top: 10px;
     color: #cbad69;
+}
+#narrador{
+    float: right;
+    margin-left: 10px;
+    margin-top: -60px;
+    width: 400px;
+    height: 380px;
+    margin-bottom:30px;  
+}
+#data {
+    padding-bottom: 50px;
 }
