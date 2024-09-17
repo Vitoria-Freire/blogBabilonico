@@ -25,6 +25,7 @@ header{
     color: #cbad69;
     padding-left: 20px;
     padding-right: 20px;
+    list-style-type: none;
 }
 
 #bottom-header{
@@ -115,13 +116,15 @@ footer{
     margin-bottom: 15px;
 }
 
-.footer-links a {
+.footer-links a,
+.bottom-footer a{
     text-decoration: none;
     color: #cbad69;
     font-size: 14px;
 }
 
-.footer-links a:hover {
+.footer-links a:hover,
+.bottom-footer a:hover{
     color: #fefdf2;
 }
 
@@ -130,6 +133,7 @@ footer{
     margin-top: 10px;
     color: #cbad69;
 }
+
 #narrador{
     float: right;
     margin-left: 10px;
@@ -138,6 +142,10 @@ footer{
     height: 380px;
     margin-bottom:30px;  
 }
-#data {
+#data{
     padding-bottom: 50px;
+}
+
+p{
+    font-size: 1.15rem;
 }

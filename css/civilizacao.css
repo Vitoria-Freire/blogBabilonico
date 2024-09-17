@@ -1,3 +1,15 @@
 img{
-    width:290px;height:auto;
+    width:290px;
+    height:auto;
+    display: block;
+    margin: auto;
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#img4{
+    margin-bottom: 15px;
 }
