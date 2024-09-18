@@ -57,21 +57,30 @@ header{
 }
 
 #narrator{
-    margin-top: 10%;
+    margin-top: 13%;
     display: flex;
     justify-content: center;
 }
 
 #narrator img{
-    width: 12px;
-    padding-right: 25px;
+    float: right;
+    margin-left: 5px;
+    margin-top: -60px;
+    width: 400px;
+    height: 380px;
+    margin-bottom:30px;
 }
 
 #narrator p{
-    padding-top: 20px;
-    padding-left: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
     text-align: justify;
     font-size: large;
+}
+
+#subtitle{
+    margin-top: 18px;
+    margin-bottom: 40px;
 }
 
 h1{
@@ -134,14 +143,6 @@ footer{
     color: #cbad69;
 }
 
-#narrador{
-    float: right;
-    margin-left: 10px;
-    margin-top: -60px;
-    width: 400px;
-    height: 380px;
-    margin-bottom:30px;  
-}
 #data{
     padding-bottom: 50px;
 }
